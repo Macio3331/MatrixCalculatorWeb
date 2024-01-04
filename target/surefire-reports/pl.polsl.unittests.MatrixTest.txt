@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.polsl.unittests.MatrixTest
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in pl.polsl.unittests.MatrixTest

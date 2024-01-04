@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.1" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_1.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="pl.polsl_MatrixCalculatorWeb_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pl.polsl.matrixcalculatorweb.model.Calculation</class>
+    <class>pl.polsl.matrixcalculatorweb.model.Matrix</class>
+    <!--<exclude-unlisted-classes>false</exclude-unlisted-classes>-->
+    <!--<non-jta-data-source>jdbc:derby://localhost:1527/Lab</non-jta-data-source>-->
+    <properties>
+      <property name="eclipselink.logging.level" value="ALL"/>
+      <!--<property name="jakarta.persistence.nonJtaDataSource" value="jdbc:derby://localhost:1527/Lab" />-->
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:derby://localhost:1527/Lab"/>
+      <property name="jakarta.persistence.jdbc.user" value="app"/>
+      <property name="jakarta.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="jakarta.persistence.jdbc.password" value="app"/>
+      <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>

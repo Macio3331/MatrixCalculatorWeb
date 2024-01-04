@@ -1,0 +1,7 @@
+pl\polsl\unittests\CalculatorTest.class
+pl\polsl\unittests\MockDouble.class
+pl\polsl\unittests\ElementDoubleTest.class
+pl\polsl\unittests\MatrixTableModelTest.class
+pl\polsl\unittests\ElementIntegerTest.class
+pl\polsl\unittests\MatrixTest.class
+pl\polsl\unittests\MockInteger.class

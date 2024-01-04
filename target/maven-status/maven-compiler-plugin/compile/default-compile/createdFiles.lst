@@ -1,0 +1,17 @@
+pl\polsl\matrixcalculatorweb\model\ElementDouble.class
+pl\polsl\matrixcalculatorweb\servlets\HistoryServlet.class
+pl\polsl\matrixcalculatorweb\model\MatrixTableModel.class
+pl\polsl\matrixcalculatorweb\servlets\ErrorServlet.class
+pl\polsl\matrixcalculatorweb\servlets\ResultServlet.class
+pl\polsl\matrixcalculatorweb\servlets\MatrixTablesServlet.class
+pl\polsl\matrixcalculatorweb\JakartaRestConfiguration.class
+pl\polsl\matrixcalculatorweb\model\Calculator.class
+pl\polsl\matrixcalculatorweb\model\ElementInteger.class
+pl\polsl\matrixcalculatorweb\model\IMatrix.class
+pl\polsl\matrixcalculatorweb\model\DBManager.class
+pl\polsl\matrixcalculatorweb\model\IArithmetical.class
+pl\polsl\matrixcalculatorweb\model\Matrix.class
+pl\polsl\matrixcalculatorweb\resources\JakartaEE10Resource.class
+pl\polsl\matrixcalculatorweb\model\Calculation.class
+pl\polsl\matrixcalculatorweb\model\DimensionException.class
+pl\polsl\matrixcalculatorweb\servlets\MainServlet.class
